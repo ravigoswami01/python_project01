@@ -16,3 +16,10 @@ print("this is " , chh(23 , 44))
 is_even = lambda a: a % 2 == 0
 
 print(is_even(59))
+
+
+#  use if and else in lamda function 
+
+fun = lambda a : True if len(s) > 6 else False
+
+print(fun())
